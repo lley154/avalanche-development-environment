@@ -63,8 +63,8 @@ vscode ➜ /workspace (main) $ avalanche blockchain create myblockchain
 ✔ ewoq
 ✓ Validator Manager Contract owner address 0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC
 ✔ I want to use defaults for a test environment
-Chain ID: 43112
-Token Symbol: AVAX
+Chain ID: << choose your own chain ID >>
+Token Symbol: << choose your own token symbol >>
 prefunding address 0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC with balance 1000000000000000000000000
 Installing subnet-evm-v0.7.0...
 subnet-evm-v0.7.0 installation successful
