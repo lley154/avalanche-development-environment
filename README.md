@@ -181,6 +181,7 @@ contract NumberStorage {
 
 Using Foundry, compile & deploy the NumberStorage.sol smart contract
 ```
+vscode ➜ /workspace (main) $ export PK=56289e99c94b6912bfc12adc093c9b51124f0dc54ac7a766b2bc5ccf558d8027
 vscode ➜ /workspace (main) $ forge create --rpc-url local-c --private-key $PK src/my-contracts/NumberStorage.sol:NumberStorage --broadcast
 [⠊] Compiling...
 No files changed, compilation skipped
