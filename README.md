@@ -198,7 +198,7 @@ vscode ➜ /workspace (main) $ cast send --rpc-url local-c --private-key $PK 0x5
 
 Now, read the value of the state variable.
 ```
-vscode ➜ /workspace (main) $ cast call --rpc-url local-c 0x5DB9A7629912EBF95876228C24A848de0bfB43A9 "getNum()(uint)")"
+vscode ➜ /workspace (main) $ cast call --rpc-url local-c 0x5DB9A7629912EBF95876228C24A848de0bfB43A9 "getNum()(uint)"
 ```
 
 Further readings
