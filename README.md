@@ -11,7 +11,7 @@ Start Docker desktop if not already running
 
 Build and run the dev container image
 ```
-$ docker build -f .devcontainer/Dockerfile -t mydevcontainer 
+$ docker build -f .devcontainer/Dockerfile -t mydevcontainer .
 $ docker run -it --rm \
   -v "$(pwd):/workspace" \
   -w /workspace \
