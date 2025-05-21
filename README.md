@@ -319,12 +319,12 @@ Transaction hash: 0x80e564ae0539343d3b41bc6ebe2dde8d73cd76e5b0cc5e6e508cc02c3beb
 
 Submit a transaction to the smart contract and set the number 42 into the state variable.  Use the smart contract address displayed above.
 ```
-vscode ➜ /workspace (main) $ cast send --rpc-url local-c --private-key $PK 0x5DB9A7629912EBF95876228C24A848de0bfB43A9 "setNum(uint)" 42
+vscode ➜ /workspace (main) $ cast send --rpc-url myblockchain --private-key $PK 0x5DB9A7629912EBF95876228C24A848de0bfB43A9 "setNum(uint)" 42
 ```
 
 Now, read the value of the state variable.
 ```
-vscode ➜ /workspace (main) $ cast call --rpc-url local-c 0x5DB9A7629912EBF95876228C24A848de0bfB43A9 "getNum()(uint)"
+vscode ➜ /workspace (main) $ cast call --rpc-url myblockchain 0x5DB9A7629912EBF95876228C24A848de0bfB43A9 "getNum()(uint)"
 ```
 
 Further readings
