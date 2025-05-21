@@ -47,6 +47,17 @@ List the accounts created on the local networks
 ```
 vscode ➜ /workspace (main) $ avalanche key list
 ```
+✔ Local Network
++--------+------+---------+-------------------------------------------------+-------+---------------------+---------------+
+|  KIND  | NAME | SUBNET  |                     ADDRESS                     | TOKEN |       BALANCE       |    NETWORK    |
++--------+------+---------+-------------------------------------------------+-------+---------------------+---------------+
+| stored | ewoq | C-Chain | 0x8db97C7cEcE249c2b98bDC0226Cc4C2A57BF52FC      | AVAX  |  50000000.000000000 | Local Network |
++        +      +---------+-------------------------------------------------+-------+---------------------+---------------+
+|        |      | P-Chain | P-custom18jma8ppw3nhx5r4ap8clazz0dps7rv5u9xde7p | AVAX  |  30000000.000000000 | Local Network |
++        +      +---------+-------------------------------------------------+-------+---------------------+---------------+
+|        |      | X-Chain | X-custom18jma8ppw3nhx5r4ap8clazz0dps7rv5u9xde7p | AVAX  | 300000000.000000000 | Local Network |
++--------+------+---------+-------------------------------------------------+-------+---------------------+---------------+
+```
 
 The default values for the local network are as follows:
 ```
