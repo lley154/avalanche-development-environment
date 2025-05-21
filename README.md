@@ -46,7 +46,6 @@ Network ready to use.
 List the accounts created on the local networks
 ```
 vscode ➜ /workspace (main) $ avalanche key list
-```
 ✔ Local Network
 +--------+------+---------+-------------------------------------------------+-------+---------------------+---------------+
 |  KIND  | NAME | SUBNET  |                     ADDRESS                     | TOKEN |       BALANCE       |    NETWORK    |
